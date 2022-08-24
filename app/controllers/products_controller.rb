@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
 
 # puts "inside index def"
 
-render 'index'
+# render 'index'
 
 
   end
@@ -15,7 +15,7 @@ render 'index'
 
     # puts "inside show def"
 
-    render :show
+    # render :show
 
   end
 

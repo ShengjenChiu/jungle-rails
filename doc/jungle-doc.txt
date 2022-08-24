@@ -1,0 +1,51 @@
+Jungle
+
+shengjenchiu@Shengjen-MacBook-Air jungle-rails % bin/rails db:reset
+Running via Spring preloader in process 28701
+Dropped database 'jungle_development'
+Dropped database 'jungle_test'
+Created database 'jungle_development'
+Created database 'jungle_test'
+Seeding Data ...
+Finding or Creating Categories ...
+Re-creating Products ...
+DONE!
+////////////////////////////
+Home page?:
+
+http://localhost:3000/
+/
+/products(.:format)
+
+//////////////////////////
+Test credit card#
+
+Visa	4242424242424242	Any 3 digits	Any future date
+Visa (debit)	4000056655665556	Any 3 digits	Any future date
+Mastercard	5555555555554444	Any 3 digits	Any future date
+Mastercard (2-series)	2223003122003222	Any 3 digits	Any future date
+
+
+
+
+
+///////////////////////////
+Sheng git push to each branch on the remote gitHub repo:
+
+----------------------
+Git Branches:
+
+fix/money-formatting
+
+fix/empty-cart-ui
+
+feature/sold-out-badge
+
+feature/order-details
+
+fix/admin-basic-auth
+
+
+
+
+
