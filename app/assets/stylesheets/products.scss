@@ -6,6 +6,7 @@ main section.categories-show {
     // flex-wrap: wrap;
     // justify-content: space-around;
 
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5em;
@@ -19,6 +20,12 @@ main section.categories-show {
       grid-template-columns: 1fr;
     }
     article {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+
+
       .soldout {
         min-width: 110px;
         background: rgba(224, 14, 14, 0.8);
